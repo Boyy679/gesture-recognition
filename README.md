@@ -85,7 +85,7 @@ The predictions are in the format of a 24 length array. Though it looks a bit di
 
 ### ASL PC camera gesture recognition
 
-
+You can use you own PC camera to achieve gesture recognition
 
 
 
