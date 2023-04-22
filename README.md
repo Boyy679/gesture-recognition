@@ -79,11 +79,9 @@ By using `ImageDataGenerator`, the model's validation accuracy is higher and mor
 
 ### ASL prediction
 
+* Prediction
 
-
-
-
-
+The predictions are in the format of a 24 length array. Though it looks a bit different, this is the same format as our "binarized" categorical arrays from y_train and y_test. Each element of the array is a probability between 0 and 1, representing the confidence for each category. Let's make it a little more readable. We can start by finding which element of the array represents the highest probability. This can be done with the numpy library and the [argmax](https://numpy.org/doc/stable/reference/generated/numpy.argmax.html) function.
 
 ### ASL PC camera gesture recognition
 
